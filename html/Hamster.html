@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hamster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .content{
+            border:1px solid blue;
+            font-weight: bold;
+            width: 375px;
+            height: 667px;
+            background-image:url('../遊戲畫面素材/背景.png');
+        }
+        .title{
+            width: 375px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid red;
+            position: absolute;
+            top: 50px;
+        }
+        .box{
+            width: 105px;
+            margin: 5px;
+            border: 1px solid blue;
+            display:inline-block;
+            vertical-algin:top;
+        }
+        .table{
+            position: absolute;
+            top: 230px;
+            left: 20px;
+        }
+        label{
+            font-size: 20px;
+        }
+        td{
+            width: 112px;
+            height: 106px;
+            border: 1px solid blue;
+        }
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            <div class="box">
+                <label>時間:</label>
+                <input type="text" name="time" size="10">
+            </div>
+            <div class="box">
+                <label>分數：</label>
+				<input type="text" name="score" size="10">
+            </div>
+        </div>
+    </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3"></td>
+                </tr>
+                <tr>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                    <td id="6"></td>
+                </tr>
+                <tr>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                    <td id="9"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
