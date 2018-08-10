@@ -1,24 +1,17 @@
 .content{
     border:1px solid blue;
-    font-weight: bold;
     width: 375px;
     height: 667px;
     background-image:url('../遊戲畫面素材/背景.png');
 }
 .title{
+    font-weight: bolder;
     width: 375px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid red;
     position: absolute;
     top: 50px;
-}
-.box{
-    width: 105px;
-    margin: 5px;
-    border: 1px solid green;
-    display:inline-block;
-    vertical-algin:top;
 }
 .table{
     position: absolute;

@@ -10,20 +10,16 @@
 </head>
 <body>
     <div class="content">
+            <button onclick="GameStart()">開始遊戲</button>
+            <button onclick="GameOver()">結束遊戲</button>
         <div class="title">
-			<div class="box">
-				<label>時間:</label>
-				<input type="text" name="time" size="10">
-			</div>
-			<div class="box">
-				<label>分數：</label>
-				<input type="text" name="score" size="10">
-			</div>
-			<div class="box">
-				<button value="Ready" onclick="GameStart()">開始遊戲</button>
-			</div>
+            <form name="fomr1">
+                <label>時間:</label>
+                <input type="text" name="time" size="8" value="90" disabled>
+                <label>分數：</label>
+                <input type="text" name="score" size="8" value="0" disabled>
+            </form>
         </div>
-    </div>
         <div class="table">
             <table>
                 <tr>

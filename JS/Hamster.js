@@ -8,12 +8,12 @@ var td = new Array();
 		function GameStart(){
 		playing = true;
 		interId = setInterval("show()",1000);
-		document.score.value=score;
+		document.fomr1.score.value=score;
 		timeShow();
 		}
 			
 		function timeShow(){
-			document.time.value=countDown;
+			document.fomr1.time.value=countDown;
 			if(countDown == 0)
 				{
 					GameOver();
@@ -55,13 +55,13 @@ var td = new Array();
 				if(document.getElementById("td["+id+"]").innerHTML!="")
 				{
 					score += 1;
-					document.score.value = score;
+					document.title.score.value = score;
 					document.getElementById("td["+id+"]").innerHTML="";
 				}
 				else
 				{
 					score += -1;
-					document.score.value = score;
+					document.title.score.value = score;
 				}
 			}
 		}
