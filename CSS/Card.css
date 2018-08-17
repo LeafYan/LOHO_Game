@@ -10,7 +10,6 @@
     margin: 0 auto;
     position: absolute;
     top: 225px;
-    background-image: url('../遊戲畫面素材/bg.jpg');
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-align: center;
@@ -21,14 +20,12 @@
     height: 320px;
     position: relative;
     margin: 20px auto;
-    background-color: red;
 }
 
 .card{
     width: 80px;
     height: 120px;
     position: absolute;
-    background-color: blue;
 }
 
 .face{
@@ -39,14 +36,14 @@
     -webkit-transition: all .3s;
 }
 
-.fornt{
-    background: url("../遊戲畫面素材/deck.png");
+.front{
+    background: url("../遊戲畫面素材/deck.png")0 -480px;
     z-index: 10;
 }
 
 .back{
-    background:  url("../遊戲畫面素材/deck.png");
-    -webkit-transform-rotateY(-180deg);
+    background: url("../遊戲畫面素材/deck.png");
+    -webkit-transform: rotateY(-180deg);
     z-index: 8;
 }
 
