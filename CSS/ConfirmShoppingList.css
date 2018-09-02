@@ -1,0 +1,21 @@
+.list{
+    width: 100%;
+    height: auto;
+    border: 1px blue solid;
+    margin-bottom: 20px;
+}
+
+.total{
+    width: 100%;
+    height: auto;
+    border: 1px red solid;
+    text-align: right;
+}
+.next{
+    text-align: center;
+}
+.button{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
